@@ -1,0 +1,17 @@
+{
+	"name": "@compendlore/addon-template",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Gabarit minimal d'addon",
+	"type": "module",
+	"files": [
+		"build"
+	],
+	"exports": {
+		".": "./build/index.js"
+	},
+	"scripts": {
+		"build": "tsc -b",
+		"typecheck": "tsc -b --pretty false"
+	}
+}

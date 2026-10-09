@@ -1,0 +1,11 @@
+{
+	"files": [],
+	"references": [
+		{
+			"path": "packages/addon-template"
+		},
+		{
+			"path": "packages/official-catalog"
+		}
+	]
+}

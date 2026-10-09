@@ -1,0 +1,14 @@
+{
+	"layers": [
+		{
+			"name": "template",
+			"paths": ["packages/addon-template/"],
+			"mayImport": []
+		},
+		{
+			"name": "catalog",
+			"paths": ["packages/official-catalog/"],
+			"mayImport": []
+		}
+	]
+}

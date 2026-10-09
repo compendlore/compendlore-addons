@@ -1,0 +1,17 @@
+{
+	"name": "@compendlore/official-addon-catalog",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Catalogue source des addons officiels",
+	"type": "module",
+	"files": [
+		"build"
+	],
+	"exports": {
+		".": "./build/index.js"
+	},
+	"scripts": {
+		"build": "tsc -b",
+		"typecheck": "tsc -b --pretty false"
+	}
+}
