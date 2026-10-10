@@ -16,3 +16,9 @@ Fondation de phase 2. Aucun module historique non audité n'est présent.
 - `npm run ci` : exécute tous les contrôles d'intégration.
 
 Les builds locaux, artefacts, secrets et données runtime sont exclus de Git.
+
+## Docker
+
+Le dépôt ne fournit pas encore de service d'exécution. Son `Dockerfile` expose donc uniquement la
+cible `quality`, qui installe les dépendances et exécute toute la CI dans un environnement isolé.
+Depuis la racine du workspace, utiliser `make docker-test-addons`.
