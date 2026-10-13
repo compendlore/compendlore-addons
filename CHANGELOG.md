@@ -11,6 +11,7 @@ under `Unreleased` until the release manager assigns a version and publication d
   repository quality checks.
 - Added the official addon catalogue and reusable addon template foundations.
 - Added a Docker quality image for reproducible addon validation.
+- Added automated dependency maintenance for npm and GitHub Actions.
 
 ### Changed
 
