@@ -6,6 +6,9 @@
 		},
 		{
 			"path": "packages/official-catalog"
+		},
+		{
+			"path": "packages/vertical-slice-proof"
 		}
 	]
 }

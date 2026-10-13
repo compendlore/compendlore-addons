@@ -9,6 +9,11 @@
 			"name": "catalog",
 			"paths": ["packages/official-catalog/"],
 			"mayImport": []
+		},
+		{
+			"name": "vertical-slice-proof",
+			"paths": ["packages/vertical-slice-proof/"],
+			"mayImport": []
 		}
 	]
 }

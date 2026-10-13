@@ -12,6 +12,8 @@ under `Unreleased` until the release manager assigns a version and publication d
 - Added the official addon catalogue and reusable addon template foundations.
 - Added a Docker quality image for reproducible addon validation.
 - Added automated dependency maintenance for npm and GitHub Actions.
+- Added a declarative vertical-slice proof addon with a managed table, callable method, entity type,
+  localized page, and navigation contribution for installation lifecycle validation.
 
 ### Changed
 

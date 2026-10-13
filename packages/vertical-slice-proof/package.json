@@ -1,0 +1,17 @@
+{
+	"name": "@compendlore/vertical-slice-proof-addon",
+	"version": "0.0.0",
+	"private": true,
+	"description": "Addon de preuve du premier parcours vertical Compendlore",
+	"type": "module",
+	"files": [
+		"build"
+	],
+	"exports": {
+		".": "./build/index.js"
+	},
+	"scripts": {
+		"build": "tsc -b",
+		"typecheck": "tsc -b --pretty false"
+	}
+}
